@@ -48,7 +48,7 @@ class CatCafeTest {
     void getCatCount_returns_correct_number_of_cats(int catCount) {
         // given
         CatCafe catcafe = new CatCafe();
-        for (int i = 0; i < catCount; i++) catcafe.addCat(new FelineOverLord("Cat" + i, 1));
+        for (int i = 0; i < catCount; i++) catcafe.addCat(new FelineOverLord("Cat" + i, i + 1));
         // Schlägt fehl wenn weight für alle = 1 ist
         // getCatCount gibt dann immer nur eine Katze zurück
 
