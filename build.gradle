@@ -35,7 +35,7 @@ test {
 spotless {
     java {
         googleJavaFormat()
-        removeUnsedImports()
-        trimTailingWhitespace()
+        //removeUnsedImports()
+        //trimTailingWhitespace()
     }
 }
