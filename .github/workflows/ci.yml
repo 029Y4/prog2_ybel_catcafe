@@ -44,4 +44,4 @@ jobs:
         with:
           java-version: '25'
           distribution: 'temurin'
-      - run: ./gradlew spoltessCheck
+      - run: ./gradlew spotlessCheck
