@@ -67,3 +67,5 @@ replay_pid*
 *.zip
 *.tgz
 *.tar.gz
+
+/lecturedocs
